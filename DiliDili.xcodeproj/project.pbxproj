@@ -7,13 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1A0F8B891C8690D40048E65E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0F8B881C8690D40048E65E /* AppDelegate.swift */; };
-		1A0F8B8B1C8690D40048E65E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0F8B8A1C8690D40048E65E /* ViewController.swift */; };
-		1A0F8B8E1C8690D40048E65E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A0F8B8C1C8690D40048E65E /* Main.storyboard */; };
-		1A0F8B901C8690D40048E65E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A0F8B8F1C8690D40048E65E /* Assets.xcassets */; };
-		1A0F8B931C8690D40048E65E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A0F8B911C8690D40048E65E /* LaunchScreen.storyboard */; };
 		1A0F8B9E1C8690D50048E65E /* DiliDiliTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0F8B9D1C8690D50048E65E /* DiliDiliTests.swift */; };
 		1A0F8BA91C8690D50048E65E /* DiliDiliUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0F8BA81C8690D50048E65E /* DiliDiliUITests.swift */; };
+		1A5501041C869BD5001550DF /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5500F41C869BD5001550DF /* HomeViewController.swift */; };
+		1A5501051C869BD5001550DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5500FA1C869BD5001550DF /* AppDelegate.swift */; };
+		1A5501061C869BD5001550DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A5500FB1C869BD5001550DF /* Assets.xcassets */; };
+		1A5501071C869BD5001550DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A5500FC1C869BD5001550DF /* LaunchScreen.storyboard */; };
+		1A5501081C869BD5001550DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A5500FE1C869BD5001550DF /* Main.storyboard */; };
+		1A5501091C869BD5001550DF /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1A5501011C869BD5001550DF /* Info.plist */; };
+		1A55010B1C86BC18001550DF /* FocusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A55010A1C86BC18001550DF /* FocusViewController.swift */; };
+		1A55010D1C86BC2A001550DF /* FindViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A55010C1C86BC2A001550DF /* FindViewController.swift */; };
+		1A55010F1C86BC37001550DF /* MineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A55010E1C86BC37001550DF /* MineViewController.swift */; };
+		1A5501121C86BF30001550DF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A5501111C86BF30001550DF /* Default-568h@2x.png */; };
+		1A5501141C86C4FF001550DF /* CustomTabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5501131C86C4FF001550DF /* CustomTabBarVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,18 +41,24 @@
 
 /* Begin PBXFileReference section */
 		1A0F8B851C8690D40048E65E /* DiliDili.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiliDili.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1A0F8B881C8690D40048E65E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1A0F8B8A1C8690D40048E65E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1A0F8B8D1C8690D40048E65E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		1A0F8B8F1C8690D40048E65E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1A0F8B921C8690D40048E65E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		1A0F8B941C8690D40048E65E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1A0F8B991C8690D50048E65E /* DiliDiliTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiliDiliTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A0F8B9D1C8690D50048E65E /* DiliDiliTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiliDiliTests.swift; sourceTree = "<group>"; };
 		1A0F8B9F1C8690D50048E65E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1A0F8BA41C8690D50048E65E /* DiliDiliUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiliDiliUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A0F8BA81C8690D50048E65E /* DiliDiliUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiliDiliUITests.swift; sourceTree = "<group>"; };
 		1A0F8BAA1C8690D50048E65E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A5500F41C869BD5001550DF /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		1A5500FA1C869BD5001550DF /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1A5500FB1C869BD5001550DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1A5500FD1C869BD5001550DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1A5500FF1C869BD5001550DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1A5501011C869BD5001550DF /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A55010A1C86BC18001550DF /* FocusViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FocusViewController.swift; sourceTree = "<group>"; };
+		1A55010C1C86BC2A001550DF /* FindViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindViewController.swift; sourceTree = "<group>"; };
+		1A55010E1C86BC37001550DF /* MineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MineViewController.swift; sourceTree = "<group>"; };
+		1A5501101C86BEE8001550DF /* DiliDili-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DiliDili-Bridging-Header.h"; sourceTree = "<group>"; };
+		1A5501111C86BF30001550DF /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		1A5501131C86C4FF001550DF /* CustomTabBarVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTabBarVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +89,7 @@
 		1A0F8B7C1C8690D40048E65E = {
 			isa = PBXGroup;
 			children = (
+				1A5501111C86BF30001550DF /* Default-568h@2x.png */,
 				1A0F8B871C8690D40048E65E /* DiliDili */,
 				1A0F8B9C1C8690D50048E65E /* DiliDiliTests */,
 				1A0F8BA71C8690D50048E65E /* DiliDiliUITests */,
@@ -97,12 +110,11 @@
 		1A0F8B871C8690D40048E65E /* DiliDili */ = {
 			isa = PBXGroup;
 			children = (
-				1A0F8B881C8690D40048E65E /* AppDelegate.swift */,
-				1A0F8B8A1C8690D40048E65E /* ViewController.swift */,
-				1A0F8B8C1C8690D40048E65E /* Main.storyboard */,
-				1A0F8B8F1C8690D40048E65E /* Assets.xcassets */,
-				1A0F8B911C8690D40048E65E /* LaunchScreen.storyboard */,
-				1A0F8B941C8690D40048E65E /* Info.plist */,
+				1A5500E61C869BD5001550DF /* Category */,
+				1A5500E71C869BD5001550DF /* Classes */,
+				1A5500F91C869BD5001550DF /* ProjectInfo */,
+				1A5501021C869BD5001550DF /* ThirdLib */,
+				1A5501031C869BD5001550DF /* Tool */,
 			);
 			path = DiliDili;
 			sourceTree = "<group>";
@@ -123,6 +135,180 @@
 				1A0F8BAA1C8690D50048E65E /* Info.plist */,
 			);
 			path = DiliDiliUITests;
+			sourceTree = "<group>";
+		};
+		1A5500E61C869BD5001550DF /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		1A5500E71C869BD5001550DF /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1A5500E81C869BD5001550DF /* Find */,
+				1A5500EC1C869BD5001550DF /* Focus */,
+				1A5500F01C869BD5001550DF /* Home */,
+				1A5500F51C869BD5001550DF /* Mine */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		1A5500E81C869BD5001550DF /* Find */ = {
+			isa = PBXGroup;
+			children = (
+				1A5500E91C869BD5001550DF /* Model */,
+				1A5500EA1C869BD5001550DF /* View */,
+				1A5500EB1C869BD5001550DF /* ViewController */,
+			);
+			path = Find;
+			sourceTree = "<group>";
+		};
+		1A5500E91C869BD5001550DF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1A5500EA1C869BD5001550DF /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1A5500EB1C869BD5001550DF /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1A55010C1C86BC2A001550DF /* FindViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		1A5500EC1C869BD5001550DF /* Focus */ = {
+			isa = PBXGroup;
+			children = (
+				1A5500ED1C869BD5001550DF /* Model */,
+				1A5500EE1C869BD5001550DF /* View */,
+				1A5500EF1C869BD5001550DF /* ViewController */,
+			);
+			path = Focus;
+			sourceTree = "<group>";
+		};
+		1A5500ED1C869BD5001550DF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1A5500EE1C869BD5001550DF /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1A5500EF1C869BD5001550DF /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1A55010A1C86BC18001550DF /* FocusViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		1A5500F01C869BD5001550DF /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				1A5500F11C869BD5001550DF /* Model */,
+				1A5500F21C869BD5001550DF /* View */,
+				1A5500F31C869BD5001550DF /* ViewController */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		1A5500F11C869BD5001550DF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1A5500F21C869BD5001550DF /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1A5500F31C869BD5001550DF /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1A5500F41C869BD5001550DF /* HomeViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		1A5500F51C869BD5001550DF /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				1A5500F61C869BD5001550DF /* Model */,
+				1A5500F71C869BD5001550DF /* View */,
+				1A5500F81C869BD5001550DF /* ViewController */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		1A5500F61C869BD5001550DF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1A5500F71C869BD5001550DF /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1A5500F81C869BD5001550DF /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1A55010E1C86BC37001550DF /* MineViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		1A5500F91C869BD5001550DF /* ProjectInfo */ = {
+			isa = PBXGroup;
+			children = (
+				1A5501101C86BEE8001550DF /* DiliDili-Bridging-Header.h */,
+				1A5501131C86C4FF001550DF /* CustomTabBarVC.swift */,
+				1A5500FA1C869BD5001550DF /* AppDelegate.swift */,
+				1A5500FB1C869BD5001550DF /* Assets.xcassets */,
+				1A5500FC1C869BD5001550DF /* LaunchScreen.storyboard */,
+				1A5500FE1C869BD5001550DF /* Main.storyboard */,
+				1A5501011C869BD5001550DF /* Info.plist */,
+			);
+			path = ProjectInfo;
+			sourceTree = "<group>";
+		};
+		1A5501021C869BD5001550DF /* ThirdLib */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ThirdLib;
+			sourceTree = "<group>";
+		};
+		1A5501031C869BD5001550DF /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tool;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,9 +415,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A0F8B931C8690D40048E65E /* LaunchScreen.storyboard in Resources */,
-				1A0F8B901C8690D40048E65E /* Assets.xcassets in Resources */,
-				1A0F8B8E1C8690D40048E65E /* Main.storyboard in Resources */,
+				1A5501091C869BD5001550DF /* Info.plist in Resources */,
+				1A5501081C869BD5001550DF /* Main.storyboard in Resources */,
+				1A5501061C869BD5001550DF /* Assets.xcassets in Resources */,
+				1A5501121C86BF30001550DF /* Default-568h@2x.png in Resources */,
+				1A5501071C869BD5001550DF /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +444,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A0F8B8B1C8690D40048E65E /* ViewController.swift in Sources */,
-				1A0F8B891C8690D40048E65E /* AppDelegate.swift in Sources */,
+				1A5501051C869BD5001550DF /* AppDelegate.swift in Sources */,
+				1A55010B1C86BC18001550DF /* FocusViewController.swift in Sources */,
+				1A5501041C869BD5001550DF /* HomeViewController.swift in Sources */,
+				1A5501141C86C4FF001550DF /* CustomTabBarVC.swift in Sources */,
+				1A55010D1C86BC2A001550DF /* FindViewController.swift in Sources */,
+				1A55010F1C86BC37001550DF /* MineViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,20 +485,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		1A0F8B8C1C8690D40048E65E /* Main.storyboard */ = {
+		1A5500FC1C869BD5001550DF /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				1A0F8B8D1C8690D40048E65E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		1A0F8B911C8690D40048E65E /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1A0F8B921C8690D40048E65E /* Base */,
+				1A5500FD1C869BD5001550DF /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		1A5500FE1C869BD5001550DF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A5500FF1C869BD5001550DF /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -399,10 +591,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = DiliDili/Info.plist;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = DiliDili/ProjectInfo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = wulingd.DiliDili;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DiliDili/ProjectInfo/DiliDili-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -410,10 +605,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = DiliDili/Info.plist;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = DiliDili/ProjectInfo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = wulingd.DiliDili;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DiliDili/ProjectInfo/DiliDili-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -484,6 +681,7 @@
 				1A0F8BAF1C8690D50048E65E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1A0F8BB01C8690D50048E65E /* Build configuration list for PBXNativeTarget "DiliDiliTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +690,7 @@
 				1A0F8BB21C8690D50048E65E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1A0F8BB31C8690D50048E65E /* Build configuration list for PBXNativeTarget "DiliDiliUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +699,7 @@
 				1A0F8BB51C8690D50048E65E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
