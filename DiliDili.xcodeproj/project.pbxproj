@@ -9,17 +9,18 @@
 /* Begin PBXBuildFile section */
 		1A0F8B9E1C8690D50048E65E /* DiliDiliTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0F8B9D1C8690D50048E65E /* DiliDiliTests.swift */; };
 		1A0F8BA91C8690D50048E65E /* DiliDiliUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0F8BA81C8690D50048E65E /* DiliDiliUITests.swift */; };
+		1A3CE5E21C8D675B006B7999 /* swiftTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3CE5E11C8D675B006B7999 /* swiftTool.swift */; };
 		1A5501041C869BD5001550DF /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5500F41C869BD5001550DF /* HomeViewController.swift */; };
 		1A5501051C869BD5001550DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5500FA1C869BD5001550DF /* AppDelegate.swift */; };
 		1A5501061C869BD5001550DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A5500FB1C869BD5001550DF /* Assets.xcassets */; };
 		1A5501071C869BD5001550DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A5500FC1C869BD5001550DF /* LaunchScreen.storyboard */; };
-		1A5501081C869BD5001550DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A5500FE1C869BD5001550DF /* Main.storyboard */; };
 		1A5501091C869BD5001550DF /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1A5501011C869BD5001550DF /* Info.plist */; };
 		1A55010B1C86BC18001550DF /* FocusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A55010A1C86BC18001550DF /* FocusViewController.swift */; };
 		1A55010D1C86BC2A001550DF /* FindViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A55010C1C86BC2A001550DF /* FindViewController.swift */; };
 		1A55010F1C86BC37001550DF /* MineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A55010E1C86BC37001550DF /* MineViewController.swift */; };
 		1A5501121C86BF30001550DF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A5501111C86BF30001550DF /* Default-568h@2x.png */; };
 		1A5501141C86C4FF001550DF /* CustomTabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5501131C86C4FF001550DF /* CustomTabBarVC.swift */; };
+		9B5B42230CB87FFDE6AE06A1 /* Pods_DiliDili.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDFCDFCBE066F7593EBE48C3 /* Pods_DiliDili.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		005DEE74645DECC2E4476B54 /* Pods-DiliDili.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiliDili.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DiliDili/Pods-DiliDili.debug.xcconfig"; sourceTree = "<group>"; };
 		1A0F8B851C8690D40048E65E /* DiliDili.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiliDili.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A0F8B991C8690D50048E65E /* DiliDiliTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiliDiliTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A0F8B9D1C8690D50048E65E /* DiliDiliTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiliDiliTests.swift; sourceTree = "<group>"; };
@@ -47,11 +49,11 @@
 		1A0F8BA41C8690D50048E65E /* DiliDiliUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiliDiliUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A0F8BA81C8690D50048E65E /* DiliDiliUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiliDiliUITests.swift; sourceTree = "<group>"; };
 		1A0F8BAA1C8690D50048E65E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A3CE5E11C8D675B006B7999 /* swiftTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = swiftTool.swift; sourceTree = "<group>"; };
 		1A5500F41C869BD5001550DF /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		1A5500FA1C869BD5001550DF /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1A5500FB1C869BD5001550DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1A5500FD1C869BD5001550DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		1A5500FF1C869BD5001550DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1A5501011C869BD5001550DF /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1A55010A1C86BC18001550DF /* FocusViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FocusViewController.swift; sourceTree = "<group>"; };
 		1A55010C1C86BC2A001550DF /* FindViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindViewController.swift; sourceTree = "<group>"; };
@@ -59,6 +61,8 @@
 		1A5501101C86BEE8001550DF /* DiliDili-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DiliDili-Bridging-Header.h"; sourceTree = "<group>"; };
 		1A5501111C86BF30001550DF /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		1A5501131C86C4FF001550DF /* CustomTabBarVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTabBarVC.swift; sourceTree = "<group>"; };
+		762E8D8B2A73273B30F5DF64 /* Pods-DiliDili.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiliDili.release.xcconfig"; path = "Pods/Target Support Files/Pods-DiliDili/Pods-DiliDili.release.xcconfig"; sourceTree = "<group>"; };
+		EDFCDFCBE066F7593EBE48C3 /* Pods_DiliDili.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DiliDili.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B5B42230CB87FFDE6AE06A1 /* Pods_DiliDili.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,6 +99,8 @@
 				1A0F8B9C1C8690D50048E65E /* DiliDiliTests */,
 				1A0F8BA71C8690D50048E65E /* DiliDiliUITests */,
 				1A0F8B861C8690D40048E65E /* Products */,
+				26F29A0A7B8D65E99BCFFD83 /* Pods */,
+				4D99A0A78D710AAD31D24A2A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,6 +117,7 @@
 		1A0F8B871C8690D40048E65E /* DiliDili */ = {
 			isa = PBXGroup;
 			children = (
+				1A5501151C86D9C7001550DF /* ProjectConfig */,
 				1A5500E61C869BD5001550DF /* Category */,
 				1A5500E71C869BD5001550DF /* Classes */,
 				1A5500F91C869BD5001550DF /* ProjectInfo */,
@@ -291,7 +299,6 @@
 				1A5500FA1C869BD5001550DF /* AppDelegate.swift */,
 				1A5500FB1C869BD5001550DF /* Assets.xcassets */,
 				1A5500FC1C869BD5001550DF /* LaunchScreen.storyboard */,
-				1A5500FE1C869BD5001550DF /* Main.storyboard */,
 				1A5501011C869BD5001550DF /* Info.plist */,
 			);
 			path = ProjectInfo;
@@ -307,8 +314,33 @@
 		1A5501031C869BD5001550DF /* Tool */ = {
 			isa = PBXGroup;
 			children = (
+				1A3CE5E11C8D675B006B7999 /* swiftTool.swift */,
 			);
 			path = Tool;
+			sourceTree = "<group>";
+		};
+		1A5501151C86D9C7001550DF /* ProjectConfig */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ProjectConfig;
+			sourceTree = "<group>";
+		};
+		26F29A0A7B8D65E99BCFFD83 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				005DEE74645DECC2E4476B54 /* Pods-DiliDili.debug.xcconfig */,
+				762E8D8B2A73273B30F5DF64 /* Pods-DiliDili.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4D99A0A78D710AAD31D24A2A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EDFCDFCBE066F7593EBE48C3 /* Pods_DiliDili.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -318,9 +350,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1A0F8BAD1C8690D50048E65E /* Build configuration list for PBXNativeTarget "DiliDili" */;
 			buildPhases = (
+				448EDD6C60435103A956535A /* Check Pods Manifest.lock */,
 				1A0F8B811C8690D40048E65E /* Sources */,
 				1A0F8B821C8690D40048E65E /* Frameworks */,
 				1A0F8B831C8690D40048E65E /* Resources */,
+				F2EE226D1AD15CADED097652 /* Embed Pods Frameworks */,
+				6E7B434DE9C9BB345009CF11 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -416,7 +451,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A5501091C869BD5001550DF /* Info.plist in Resources */,
-				1A5501081C869BD5001550DF /* Main.storyboard in Resources */,
 				1A5501061C869BD5001550DF /* Assets.xcassets in Resources */,
 				1A5501121C86BF30001550DF /* Default-568h@2x.png in Resources */,
 				1A5501071C869BD5001550DF /* LaunchScreen.storyboard in Resources */,
@@ -439,6 +473,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		448EDD6C60435103A956535A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6E7B434DE9C9BB345009CF11 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DiliDili/Pods-DiliDili-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2EE226D1AD15CADED097652 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DiliDili/Pods-DiliDili-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1A0F8B811C8690D40048E65E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -447,6 +529,7 @@
 				1A5501051C869BD5001550DF /* AppDelegate.swift in Sources */,
 				1A55010B1C86BC18001550DF /* FocusViewController.swift in Sources */,
 				1A5501041C869BD5001550DF /* HomeViewController.swift in Sources */,
+				1A3CE5E21C8D675B006B7999 /* swiftTool.swift in Sources */,
 				1A5501141C86C4FF001550DF /* CustomTabBarVC.swift in Sources */,
 				1A55010D1C86BC2A001550DF /* FindViewController.swift in Sources */,
 				1A55010F1C86BC37001550DF /* MineViewController.swift in Sources */,
@@ -491,14 +574,6 @@
 				1A5500FD1C869BD5001550DF /* Base */,
 			);
 			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		1A5500FE1C869BD5001550DF /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1A5500FF1C869BD5001550DF /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -589,6 +664,7 @@
 		};
 		1A0F8BAE1C8690D50048E65E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 005DEE74645DECC2E4476B54 /* Pods-DiliDili.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -603,6 +679,7 @@
 		};
 		1A0F8BAF1C8690D50048E65E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 762E8D8B2A73273B30F5DF64 /* Pods-DiliDili.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
