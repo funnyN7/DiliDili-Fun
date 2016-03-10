@@ -2,12 +2,12 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "ictab_bangumi_selected.png",
+      "filename" : "hd_ictab_search_selected.png",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
-      "filename" : "ictab_bangumi_selected@2x.png",
+      "filename" : "hd_ictab_search_selected@2x.png",
       "scale" : "2x"
     },
     {

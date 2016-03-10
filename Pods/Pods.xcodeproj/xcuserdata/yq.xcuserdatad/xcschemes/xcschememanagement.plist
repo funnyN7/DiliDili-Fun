@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Masonry.xcscheme</key>
+		<key>Alamofire.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -14,15 +14,25 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>SnapKit.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>A9A83F63385AA43314397B8DD375464B</key>
+		<key>79C040AFDDCE1BCBF6D8B5EB0B85887F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>AD2FF818B946E02FE0912965C945F1A4</key>
+		<key>822993CF105E3A548E09F0ADD3C52335</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>93B898488E74EA0849A7C9D3F0106C20</key>
 		<dict>
 			<key>primary</key>
 			<true/>

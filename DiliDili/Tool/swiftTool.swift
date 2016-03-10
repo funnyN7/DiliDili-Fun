@@ -7,7 +7,7 @@
 //
 
 import Foundation
-
+import ObjectiveC
 
 
 func swiftClassFromString(className: String) -> AnyClass! {
@@ -27,5 +27,20 @@ func swiftClassFromString(className: String) -> AnyClass! {
     return nil;
 }
 
+
+
+
+
+private var custom: String?
+extension UIViewController {
+    var pagesTitle: String? {
+        get {
+            return (objc_getAssociatedObject(self, &custom) as? String)!
+        }
+        set(newValue) {
+            objc_setAssociatedObject(self, &custom, newValue, objc_AssociationPolicy.OBJC_ASSOCIATION_RETAIN)
+        }
+    }
+}
 
 

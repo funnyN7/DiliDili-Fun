@@ -13,13 +13,20 @@
 		1A5501041C869BD5001550DF /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5500F41C869BD5001550DF /* HomeViewController.swift */; };
 		1A5501051C869BD5001550DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5500FA1C869BD5001550DF /* AppDelegate.swift */; };
 		1A5501061C869BD5001550DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A5500FB1C869BD5001550DF /* Assets.xcassets */; };
-		1A5501071C869BD5001550DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A5500FC1C869BD5001550DF /* LaunchScreen.storyboard */; };
 		1A5501091C869BD5001550DF /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1A5501011C869BD5001550DF /* Info.plist */; };
 		1A55010B1C86BC18001550DF /* FocusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A55010A1C86BC18001550DF /* FocusViewController.swift */; };
 		1A55010D1C86BC2A001550DF /* FindViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A55010C1C86BC2A001550DF /* FindViewController.swift */; };
 		1A55010F1C86BC37001550DF /* MineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A55010E1C86BC37001550DF /* MineViewController.swift */; };
-		1A5501121C86BF30001550DF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A5501111C86BF30001550DF /* Default-568h@2x.png */; };
 		1A5501141C86C4FF001550DF /* CustomTabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5501131C86C4FF001550DF /* CustomTabBarVC.swift */; };
+		1A5CB8FD1C8FDB58007C3AD6 /* DAPageIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A5CB8F81C8FDB58007C3AD6 /* DAPageIndicatorView.m */; };
+		1A5CB8FE1C8FDB58007C3AD6 /* DAPagesContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A5CB8FA1C8FDB58007C3AD6 /* DAPagesContainer.m */; };
+		1A5CB8FF1C8FDB58007C3AD6 /* DAPagesContainerTopBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A5CB8FC1C8FDB58007C3AD6 /* DAPagesContainerTopBar.m */; };
+		1A5CB9011C8FDE0D007C3AD6 /* ZBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5CB9001C8FDE0D007C3AD6 /* ZBViewController.swift */; };
+		1A5CB9031C8FDE30007C3AD6 /* RecommendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5CB9021C8FDE30007C3AD6 /* RecommendViewController.swift */; };
+		1A5CB9051C8FDE45007C3AD6 /* FJViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5CB9041C8FDE45007C3AD6 /* FJViewController.swift */; };
+		1A5CB9071C8FDE5C007C3AD6 /* FQViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5CB9061C8FDE5C007C3AD6 /* FQViewController.swift */; };
+		1A5CB95B1C90010B007C3AD6 /* themeTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5CB95A1C90010B007C3AD6 /* themeTool.swift */; };
+		1A5CB95D1C903CCE007C3AD6 /* danmaku.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1A5CB95C1C903CCE007C3AD6 /* danmaku.ttf */; };
 		9B5B42230CB87FFDE6AE06A1 /* Pods_DiliDili.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDFCDFCBE066F7593EBE48C3 /* Pods_DiliDili.framework */; };
 /* End PBXBuildFile section */
 
@@ -53,14 +60,24 @@
 		1A5500F41C869BD5001550DF /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		1A5500FA1C869BD5001550DF /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1A5500FB1C869BD5001550DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1A5500FD1C869BD5001550DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1A5501011C869BD5001550DF /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1A55010A1C86BC18001550DF /* FocusViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FocusViewController.swift; sourceTree = "<group>"; };
 		1A55010C1C86BC2A001550DF /* FindViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindViewController.swift; sourceTree = "<group>"; };
 		1A55010E1C86BC37001550DF /* MineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MineViewController.swift; sourceTree = "<group>"; };
 		1A5501101C86BEE8001550DF /* DiliDili-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DiliDili-Bridging-Header.h"; sourceTree = "<group>"; };
-		1A5501111C86BF30001550DF /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		1A5501131C86C4FF001550DF /* CustomTabBarVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTabBarVC.swift; sourceTree = "<group>"; };
+		1A5CB8F71C8FDB58007C3AD6 /* DAPageIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAPageIndicatorView.h; sourceTree = "<group>"; };
+		1A5CB8F81C8FDB58007C3AD6 /* DAPageIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAPageIndicatorView.m; sourceTree = "<group>"; };
+		1A5CB8F91C8FDB58007C3AD6 /* DAPagesContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAPagesContainer.h; sourceTree = "<group>"; };
+		1A5CB8FA1C8FDB58007C3AD6 /* DAPagesContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAPagesContainer.m; sourceTree = "<group>"; };
+		1A5CB8FB1C8FDB58007C3AD6 /* DAPagesContainerTopBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAPagesContainerTopBar.h; sourceTree = "<group>"; };
+		1A5CB8FC1C8FDB58007C3AD6 /* DAPagesContainerTopBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAPagesContainerTopBar.m; sourceTree = "<group>"; };
+		1A5CB9001C8FDE0D007C3AD6 /* ZBViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZBViewController.swift; sourceTree = "<group>"; };
+		1A5CB9021C8FDE30007C3AD6 /* RecommendViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecommendViewController.swift; sourceTree = "<group>"; };
+		1A5CB9041C8FDE45007C3AD6 /* FJViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FJViewController.swift; sourceTree = "<group>"; };
+		1A5CB9061C8FDE5C007C3AD6 /* FQViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FQViewController.swift; sourceTree = "<group>"; };
+		1A5CB95A1C90010B007C3AD6 /* themeTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = themeTool.swift; sourceTree = "<group>"; };
+		1A5CB95C1C903CCE007C3AD6 /* danmaku.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = danmaku.ttf; sourceTree = "<group>"; };
 		762E8D8B2A73273B30F5DF64 /* Pods-DiliDili.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiliDili.release.xcconfig"; path = "Pods/Target Support Files/Pods-DiliDili/Pods-DiliDili.release.xcconfig"; sourceTree = "<group>"; };
 		EDFCDFCBE066F7593EBE48C3 /* Pods_DiliDili.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DiliDili.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -94,7 +111,6 @@
 		1A0F8B7C1C8690D40048E65E = {
 			isa = PBXGroup;
 			children = (
-				1A5501111C86BF30001550DF /* Default-568h@2x.png */,
 				1A0F8B871C8690D40048E65E /* DiliDili */,
 				1A0F8B9C1C8690D50048E65E /* DiliDiliTests */,
 				1A0F8BA71C8690D50048E65E /* DiliDiliUITests */,
@@ -255,6 +271,10 @@
 			isa = PBXGroup;
 			children = (
 				1A5500F41C869BD5001550DF /* HomeViewController.swift */,
+				1A5CB9001C8FDE0D007C3AD6 /* ZBViewController.swift */,
+				1A5CB9021C8FDE30007C3AD6 /* RecommendViewController.swift */,
+				1A5CB9041C8FDE45007C3AD6 /* FJViewController.swift */,
+				1A5CB9061C8FDE5C007C3AD6 /* FQViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -294,11 +314,11 @@
 		1A5500F91C869BD5001550DF /* ProjectInfo */ = {
 			isa = PBXGroup;
 			children = (
+				1A5CB95C1C903CCE007C3AD6 /* danmaku.ttf */,
 				1A5501101C86BEE8001550DF /* DiliDili-Bridging-Header.h */,
 				1A5501131C86C4FF001550DF /* CustomTabBarVC.swift */,
 				1A5500FA1C869BD5001550DF /* AppDelegate.swift */,
 				1A5500FB1C869BD5001550DF /* Assets.xcassets */,
-				1A5500FC1C869BD5001550DF /* LaunchScreen.storyboard */,
 				1A5501011C869BD5001550DF /* Info.plist */,
 			);
 			path = ProjectInfo;
@@ -307,6 +327,7 @@
 		1A5501021C869BD5001550DF /* ThirdLib */ = {
 			isa = PBXGroup;
 			children = (
+				1A5CB8F61C8FDB58007C3AD6 /* DAPagesContainer */,
 			);
 			path = ThirdLib;
 			sourceTree = "<group>";
@@ -315,6 +336,7 @@
 			isa = PBXGroup;
 			children = (
 				1A3CE5E11C8D675B006B7999 /* swiftTool.swift */,
+				1A5CB95A1C90010B007C3AD6 /* themeTool.swift */,
 			);
 			path = Tool;
 			sourceTree = "<group>";
@@ -324,6 +346,19 @@
 			children = (
 			);
 			path = ProjectConfig;
+			sourceTree = "<group>";
+		};
+		1A5CB8F61C8FDB58007C3AD6 /* DAPagesContainer */ = {
+			isa = PBXGroup;
+			children = (
+				1A5CB8F71C8FDB58007C3AD6 /* DAPageIndicatorView.h */,
+				1A5CB8F81C8FDB58007C3AD6 /* DAPageIndicatorView.m */,
+				1A5CB8F91C8FDB58007C3AD6 /* DAPagesContainer.h */,
+				1A5CB8FA1C8FDB58007C3AD6 /* DAPagesContainer.m */,
+				1A5CB8FB1C8FDB58007C3AD6 /* DAPagesContainerTopBar.h */,
+				1A5CB8FC1C8FDB58007C3AD6 /* DAPagesContainerTopBar.m */,
+			);
+			path = DAPagesContainer;
 			sourceTree = "<group>";
 		};
 		26F29A0A7B8D65E99BCFFD83 /* Pods */ = {
@@ -452,8 +487,7 @@
 			files = (
 				1A5501091C869BD5001550DF /* Info.plist in Resources */,
 				1A5501061C869BD5001550DF /* Assets.xcassets in Resources */,
-				1A5501121C86BF30001550DF /* Default-568h@2x.png in Resources */,
-				1A5501071C869BD5001550DF /* LaunchScreen.storyboard in Resources */,
+				1A5CB95D1C903CCE007C3AD6 /* danmaku.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -526,11 +560,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A5CB95B1C90010B007C3AD6 /* themeTool.swift in Sources */,
 				1A5501051C869BD5001550DF /* AppDelegate.swift in Sources */,
 				1A55010B1C86BC18001550DF /* FocusViewController.swift in Sources */,
+				1A5CB9011C8FDE0D007C3AD6 /* ZBViewController.swift in Sources */,
+				1A5CB8FE1C8FDB58007C3AD6 /* DAPagesContainer.m in Sources */,
+				1A5CB9051C8FDE45007C3AD6 /* FJViewController.swift in Sources */,
+				1A5CB8FD1C8FDB58007C3AD6 /* DAPageIndicatorView.m in Sources */,
+				1A5CB9031C8FDE30007C3AD6 /* RecommendViewController.swift in Sources */,
+				1A5CB9071C8FDE5C007C3AD6 /* FQViewController.swift in Sources */,
 				1A5501041C869BD5001550DF /* HomeViewController.swift in Sources */,
 				1A3CE5E21C8D675B006B7999 /* swiftTool.swift in Sources */,
 				1A5501141C86C4FF001550DF /* CustomTabBarVC.swift in Sources */,
+				1A5CB8FF1C8FDB58007C3AD6 /* DAPagesContainerTopBar.m in Sources */,
 				1A55010D1C86BC2A001550DF /* FindViewController.swift in Sources */,
 				1A55010F1C86BC37001550DF /* MineViewController.swift in Sources */,
 			);
@@ -566,17 +608,6 @@
 			targetProxy = 1A0F8BA51C8690D50048E65E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		1A5500FC1C869BD5001550DF /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1A5500FD1C869BD5001550DF /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		1A0F8BAB1C8690D50048E65E /* Debug */ = {
@@ -667,6 +698,7 @@
 			baseConfigurationReference = 005DEE74645DECC2E4476B54 /* Pods-DiliDili.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = DiliDili/ProjectInfo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -682,6 +714,7 @@
 			baseConfigurationReference = 762E8D8B2A73273B30F5DF64 /* Pods-DiliDili.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = DiliDili/ProjectInfo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

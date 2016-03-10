@@ -32,7 +32,7 @@ class CustomTabBarVC: UITabBarController {
             let tabItem:UITabBarItem = UITabBarItem(title:title,image:imageNormal,selectedImage:imageSelect)
             let normal_dic = NSDictionary(object: UIColor.darkGrayColor(),
                 forKey:   NSForegroundColorAttributeName)
-            let select_dic = NSDictionary(object: UIColor.init(colorLiteralRed: 247/255.0, green: 145/255.0, blue: 164/255.0, alpha: 1),
+            let select_dic = NSDictionary(object: UIColor.dilidiliThemeColor(),
                 forKey:   NSForegroundColorAttributeName)
             tabItem .setTitleTextAttributes(normal_dic as? [String : AnyObject], forState: UIControlState.Normal)
             tabItem .setTitleTextAttributes(select_dic as? [String : AnyObject], forState: UIControlState.Selected)
@@ -44,7 +44,7 @@ class CustomTabBarVC: UITabBarController {
             default:vc = MineViewController()
             }
             let navc:UINavigationController = UINavigationController(rootViewController: vc)
-            vc.view.backgroundColor = UIColor.init(colorLiteralRed: 0.5, green: 0.5, blue: 0.5, alpha: 1)
+            vc.view.backgroundColor = UIColor.whiteColor()
             vc.tabBarItem = tabItem
             self.itemArray.append(navc)
         }

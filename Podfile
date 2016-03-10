@@ -4,7 +4,8 @@
  use_frameworks!
 
 target 'DiliDili' do
-pod 'Masonry', '~> 0.6.4'
+pod 'SnapKit', '~> 0.19.1'
+pod 'Alamofire', '~> 3.2.0'
 end
 
 target 'DiliDiliTests' do
