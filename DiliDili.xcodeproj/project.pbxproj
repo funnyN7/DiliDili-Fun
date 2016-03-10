@@ -27,6 +27,8 @@
 		1A5CB9071C8FDE5C007C3AD6 /* FQViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5CB9061C8FDE5C007C3AD6 /* FQViewController.swift */; };
 		1A5CB95B1C90010B007C3AD6 /* themeTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5CB95A1C90010B007C3AD6 /* themeTool.swift */; };
 		1A5CB95D1C903CCE007C3AD6 /* danmaku.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1A5CB95C1C903CCE007C3AD6 /* danmaku.ttf */; };
+		1A7986B91C91175500A942F1 /* register_licence.html in Resources */ = {isa = PBXBuildFile; fileRef = 1A7986B81C91175500A942F1 /* register_licence.html */; };
+		1A7986BB1C911FB200A942F1 /* FQModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7986BA1C911FB200A942F1 /* FQModel.swift */; };
 		9B5B42230CB87FFDE6AE06A1 /* Pods_DiliDili.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDFCDFCBE066F7593EBE48C3 /* Pods_DiliDili.framework */; };
 /* End PBXBuildFile section */
 
@@ -78,6 +80,8 @@
 		1A5CB9061C8FDE5C007C3AD6 /* FQViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FQViewController.swift; sourceTree = "<group>"; };
 		1A5CB95A1C90010B007C3AD6 /* themeTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = themeTool.swift; sourceTree = "<group>"; };
 		1A5CB95C1C903CCE007C3AD6 /* danmaku.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = danmaku.ttf; sourceTree = "<group>"; };
+		1A7986B81C91175500A942F1 /* register_licence.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = register_licence.html; sourceTree = "<group>"; };
+		1A7986BA1C911FB200A942F1 /* FQModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FQModel.swift; sourceTree = "<group>"; };
 		762E8D8B2A73273B30F5DF64 /* Pods-DiliDili.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiliDili.release.xcconfig"; path = "Pods/Target Support Files/Pods-DiliDili/Pods-DiliDili.release.xcconfig"; sourceTree = "<group>"; };
 		EDFCDFCBE066F7593EBE48C3 /* Pods_DiliDili.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DiliDili.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -256,6 +260,7 @@
 		1A5500F11C869BD5001550DF /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				1A7986BA1C911FB200A942F1 /* FQModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -314,6 +319,7 @@
 		1A5500F91C869BD5001550DF /* ProjectInfo */ = {
 			isa = PBXGroup;
 			children = (
+				1A7986B81C91175500A942F1 /* register_licence.html */,
 				1A5CB95C1C903CCE007C3AD6 /* danmaku.ttf */,
 				1A5501101C86BEE8001550DF /* DiliDili-Bridging-Header.h */,
 				1A5501131C86C4FF001550DF /* CustomTabBarVC.swift */,
@@ -488,6 +494,7 @@
 				1A5501091C869BD5001550DF /* Info.plist in Resources */,
 				1A5501061C869BD5001550DF /* Assets.xcassets in Resources */,
 				1A5CB95D1C903CCE007C3AD6 /* danmaku.ttf in Resources */,
+				1A7986B91C91175500A942F1 /* register_licence.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -560,6 +567,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A7986BB1C911FB200A942F1 /* FQModel.swift in Sources */,
 				1A5CB95B1C90010B007C3AD6 /* themeTool.swift in Sources */,
 				1A5501051C869BD5001550DF /* AppDelegate.swift in Sources */,
 				1A55010B1C86BC18001550DF /* FocusViewController.swift in Sources */,

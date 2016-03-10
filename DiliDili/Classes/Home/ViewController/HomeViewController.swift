@@ -38,7 +38,8 @@ class HomeViewController: UIViewController {
         self.container?.topBarBackgroundColor = UIColor.whiteColor()
         self.container?.selectedPageItemTitleColor = UIColor.dilidiliThemeColor()
         self.view.addSubview((self.container?.view)!)
-        self.container?.viewControllers = [zb,re,fj,fq]    }
+        self.container?.viewControllers = [zb,re,fj,fq]
+    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
