@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '62DC6FB0412FC6E82E53A0CD'
-               BlueprintName = 'Pods-DiliDili'
+               BlueprintIdentifier = '6A0E947A75799CFBB70A0B62'
+               BlueprintName = 'Kingfisher'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'Pods_DiliDili.framework'>
+               BuildableName = 'Kingfisher.framework'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

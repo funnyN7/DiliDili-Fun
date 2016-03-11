@@ -9,6 +9,7 @@
 import UIKit
 import Alamofire
 import SnapKit
+import Kingfisher
 class ZBViewController: UIViewController {
     
     //页面地址
@@ -32,7 +33,7 @@ class ZBViewController: UIViewController {
             
             bannerModel.img = bannerInfo["img"]
             
-            self.bannerImage?.image = UIImage(named: bannerModel.img!)
+            self.bannerImage?.kf_setImageWithURL(NSURL(string: bannerModel.img!)!)
             
         }
     }
