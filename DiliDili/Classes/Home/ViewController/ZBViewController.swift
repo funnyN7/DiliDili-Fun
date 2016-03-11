@@ -10,20 +10,38 @@ import UIKit
 import Alamofire
 import SnapKit
 class ZBViewController: UIViewController {
-
+    
+    //页面地址
+    var downloadURL:String! = "http://live.bilibili.com/AppIndex/home?access_key=57807b3049d2b46d7cef9b4bdab6acda&actionKey=appkey&appkey=27eb53fc9058f8c3&build=3010&device=phone&platform=ios&scale=2&sign=5590f7273181120e3ce5cf08edd51676&ts=1457690854"
+    
+    var bannerImage:UIImageView?
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = UIColor.grayColor()
         // Do any additional setup after loading the view.
         self.title = "直播"
         self.createUI()
+        
+        Alamofire.request(.GET,downloadURL,parameters:nil).responseJSON { response -> Void in
+            
+           let a = response.result.value?.objectForKey("data")
+            
+           let bannerInfo  = a?.objectForKey("banner")![0] as! Dictionary<String,String>
+            
+           let bannerModel = DD_LiveBannerModel()
+            
+            bannerModel.img = bannerInfo["img"]
+            
+            self.bannerImage?.image = UIImage(named: bannerModel.img!)
+            
+        }
     }
     
     func createUI(){
-        let bannnerImage = UIImage(named:"main_banner")
-        let headImageView = UIImageView(image: bannnerImage)
-        self.view.addSubview(headImageView)
-        headImageView.snp_makeConstraints { (make) -> Void in
+        let bannnerImage1 = UIImage(named:"main_banner")
+         bannerImage = UIImageView(image: bannnerImage1)
+        self.view.addSubview(bannerImage!)
+        bannerImage!.snp_makeConstraints { (make) -> Void in
 //            make.left.top.right.equalTo(0)
             make.left.equalTo(0)
             make.right.equalTo(0)

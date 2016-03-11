@@ -23,7 +23,7 @@ class CustomTabBarVC: UITabBarController {
     
     
     func  createContentVCS(){
-        for index in 0...3{
+        for index in 0..<4{
             let title = titleArray[index]
             let imageNormal_Name = imageArray[index]
             let imageSelect_Name = imageSelectArray![index]
