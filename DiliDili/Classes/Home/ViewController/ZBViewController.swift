@@ -13,29 +13,37 @@ import Kingfisher
 class ZBViewController: UIViewController {
     
     //页面地址
-    var downloadURL:String! = "http://live.bilibili.com/AppIndex/home?access_key=57807b3049d2b46d7cef9b4bdab6acda&actionKey=appkey&appkey=27eb53fc9058f8c3&build=3010&device=phone&platform=ios&scale=2&sign=5590f7273181120e3ce5cf08edd51676&ts=1457690854"
+    var downloadURL:String? = "http://live.bilibili.com/AppIndex/home?access_key=57807b3049d2b46d7cef9b4bdab6acda&actionKey=appkey&appkey=27eb53fc9058f8c3&build=3010&device=phone&platform=ios&scale=2&sign=5590f7273181120e3ce5cf08edd51676&ts=1457690854"
     
     var bannerImage:UIImageView?
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.view.backgroundColor = UIColor.grayColor()
-        // Do any additional setup after loading the view.
+        self.view.backgroundColor = UIColor.dilidili_RGBColor(190, G: 190, B: 190)
         self.title = "直播"
         self.createUI()
         
-        Alamofire.request(.GET,downloadURL,parameters:nil).responseJSON { response -> Void in
-            
-           let a = response.result.value?.objectForKey("data")
-            
-           let bannerInfo  = a?.objectForKey("banner")![0] as! Dictionary<String,String>
-            
-           let bannerModel = DD_LiveBannerModel()
-            
-            bannerModel.img = bannerInfo["img"]
-            
-            self.bannerImage?.kf_setImageWithURL(NSURL(string: bannerModel.img!)!)
-            
-        }
+        DiDiHttpManager.dd_GetNetWorkWithUrl(self.downloadURL, paramDict: nil,
+            completions:
+            { (response) -> Void in
+               let liveHelper = LiveDataHelper()
+                liveHelper.orignialData = response
+                liveHelper.configDataWithCompletion({ (state) -> Void in
+                    if state==configState.configDataStateOK{
+                        let bannerM = ((liveHelper.bannerSource?.first)!)! as DD_LiveBannerModel
+                        
+                        self.bannerImage?.kf_setImageWithURL(NSURL(string: bannerM.img!)!)
+                    }
+                    else if state==configState.configDataStateDataError{
+                        
+                    }
+                    else{
+                        
+                    }
+                })
+            })
+            { (requestError) -> Void in
+               
+            }
     }
     
     func createUI(){
@@ -47,7 +55,7 @@ class ZBViewController: UIViewController {
             make.left.equalTo(0)
             make.right.equalTo(0)
             make.top.equalTo(0)
-            make.height.equalTo(100*(320/frameTool.screen_W()))
+            make.height.equalTo(150*(320/frameTool.screen_W()))
         }
     }
 
@@ -56,15 +64,7 @@ class ZBViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
+    
+    
 
 }

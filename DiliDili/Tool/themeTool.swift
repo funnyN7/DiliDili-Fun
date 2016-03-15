@@ -13,7 +13,14 @@ extension UIColor {
     
     
   class  func  dilidiliThemeColor() -> UIColor {
-        return UIColor.init(colorLiteralRed: 247/255.0, green: 145/255.0, blue: 164/255.0, alpha: 1)
+//        return UIColor.init(colorLiteralRed: 247/255.0, green: 145/255.0, blue: 164/255.0, alpha: 1)
+        return self.dilidili_RGBColor(247, G: 145, B:
+    154)
+    }
+    
+    
+    class func   dilidili_RGBColor(R:Float,G:Float,B:Float) -> UIColor{
+        return UIColor.init(colorLiteralRed: R/255.0, green: G/255.0, blue: B/255.0, alpha: 1)
     }
 }
 

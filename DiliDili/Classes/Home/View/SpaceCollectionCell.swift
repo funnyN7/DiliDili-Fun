@@ -8,7 +8,7 @@
 
 import UIKit
 
-class spaceCollectionCell: UICollectionViewCell {
+class SpaceCollectionCell: UICollectionViewCell {
     
     private var image:UIImageView?
     private var label:UILabel?
