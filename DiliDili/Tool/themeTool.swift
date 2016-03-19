@@ -22,7 +22,20 @@ extension UIColor {
     class func   dilidili_RGBColor(R:Float,G:Float,B:Float) -> UIColor{
         return UIColor.init(colorLiteralRed: R/255.0, green: G/255.0, blue: B/255.0, alpha: 1)
     }
+    
+    
+    class func  dilidili_LightGrayColor()->UIColor{
+        return self.dilidili_RGBColor(210, G: 210, B: 210)
+    }
 }
+
+
+extension UIImage{
+    class  func  dilidiliDefaultImage() -> UIImage{
+        return UIImage(named:"main_banner")!
+    }
+}
+
 
 extension UIView{
     

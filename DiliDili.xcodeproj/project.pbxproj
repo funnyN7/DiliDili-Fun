@@ -11,6 +11,8 @@
 		1A0F8BA91C8690D50048E65E /* DiliDiliUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0F8BA81C8690D50048E65E /* DiliDiliUITests.swift */; };
 		1A2A8B711C92D26C00A18BA1 /* LiveModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2A8B701C92D26C00A18BA1 /* LiveModel.swift */; };
 		1A3CE5E21C8D675B006B7999 /* swiftTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3CE5E11C8D675B006B7999 /* swiftTool.swift */; };
+		1A52FA2A1C9BB0C2003E87B4 /* EntranceCollectionLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A52FA291C9BB0C2003E87B4 /* EntranceCollectionLayout.swift */; };
+		1A52FA2C1C9C0D33003E87B4 /* LiveCollectionHeadFootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A52FA2B1C9C0D33003E87B4 /* LiveCollectionHeadFootView.swift */; };
 		1A5501041C869BD5001550DF /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5500F41C869BD5001550DF /* HomeViewController.swift */; };
 		1A5501051C869BD5001550DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5500FA1C869BD5001550DF /* AppDelegate.swift */; };
 		1A5501061C869BD5001550DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A5500FB1C869BD5001550DF /* Assets.xcassets */; };
@@ -31,6 +33,7 @@
 		1A5F5EF51C92796500C20248 /* SpaceCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5F5EF41C92796500C20248 /* SpaceCollectionCell.swift */; };
 		1A7986B91C91175500A942F1 /* register_licence.html in Resources */ = {isa = PBXBuildFile; fileRef = 1A7986B81C91175500A942F1 /* register_licence.html */; };
 		1A7986BB1C911FB200A942F1 /* FQModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7986BA1C911FB200A942F1 /* FQModel.swift */; };
+		1ABB83B91C9A611800B35738 /* DDBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABB83B81C9A611800B35738 /* DDBannerView.swift */; };
 		9B5B42230CB87FFDE6AE06A1 /* Pods_DiliDili.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDFCDFCBE066F7593EBE48C3 /* Pods_DiliDili.framework */; };
 		A8359F9E1C9547B00094A648 /* DiDiHttpManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8359F9D1C9547B00094A648 /* DiDiHttpManager.swift */; };
 		A8747BD61C955C5E008B6AB0 /* DataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8747BD51C955C5E008B6AB0 /* DataHelper.swift */; };
@@ -65,6 +68,8 @@
 		1A0F8BAA1C8690D50048E65E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1A2A8B701C92D26C00A18BA1 /* LiveModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiveModel.swift; sourceTree = "<group>"; };
 		1A3CE5E11C8D675B006B7999 /* swiftTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = swiftTool.swift; sourceTree = "<group>"; };
+		1A52FA291C9BB0C2003E87B4 /* EntranceCollectionLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntranceCollectionLayout.swift; sourceTree = "<group>"; };
+		1A52FA2B1C9C0D33003E87B4 /* LiveCollectionHeadFootView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiveCollectionHeadFootView.swift; sourceTree = "<group>"; };
 		1A5500F41C869BD5001550DF /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		1A5500FA1C869BD5001550DF /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1A5500FB1C869BD5001550DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -89,6 +94,7 @@
 		1A5F5EF41C92796500C20248 /* SpaceCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpaceCollectionCell.swift; sourceTree = "<group>"; };
 		1A7986B81C91175500A942F1 /* register_licence.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = register_licence.html; sourceTree = "<group>"; };
 		1A7986BA1C911FB200A942F1 /* FQModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FQModel.swift; sourceTree = "<group>"; };
+		1ABB83B81C9A611800B35738 /* DDBannerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DDBannerView.swift; sourceTree = "<group>"; };
 		762E8D8B2A73273B30F5DF64 /* Pods-DiliDili.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiliDili.release.xcconfig"; path = "Pods/Target Support Files/Pods-DiliDili/Pods-DiliDili.release.xcconfig"; sourceTree = "<group>"; };
 		A8359F9D1C9547B00094A648 /* DiDiHttpManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiDiHttpManager.swift; sourceTree = "<group>"; };
 		A8747BD51C955C5E008B6AB0 /* DataHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DataHelper.swift; path = ../Classes/Home/Model/DataHelper.swift; sourceTree = "<group>"; };
@@ -280,6 +286,9 @@
 			isa = PBXGroup;
 			children = (
 				1A5F5EF41C92796500C20248 /* SpaceCollectionCell.swift */,
+				1A52FA2B1C9C0D33003E87B4 /* LiveCollectionHeadFootView.swift */,
+				1ABB83B81C9A611800B35738 /* DDBannerView.swift */,
+				1A52FA291C9BB0C2003E87B4 /* EntranceCollectionLayout.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -592,14 +601,17 @@
 				1A5CB9011C8FDE0D007C3AD6 /* ZBViewController.swift in Sources */,
 				1A5CB8FE1C8FDB58007C3AD6 /* DAPagesContainer.m in Sources */,
 				1A5CB9051C8FDE45007C3AD6 /* FJViewController.swift in Sources */,
+				1ABB83B91C9A611800B35738 /* DDBannerView.swift in Sources */,
 				A8747BD61C955C5E008B6AB0 /* DataHelper.swift in Sources */,
 				1A5CB8FD1C8FDB58007C3AD6 /* DAPageIndicatorView.m in Sources */,
 				1A5CB9031C8FDE30007C3AD6 /* RecommendViewController.swift in Sources */,
 				1A5CB9071C8FDE5C007C3AD6 /* FQViewController.swift in Sources */,
 				1A5501041C869BD5001550DF /* HomeViewController.swift in Sources */,
+				1A52FA2C1C9C0D33003E87B4 /* LiveCollectionHeadFootView.swift in Sources */,
 				1A3CE5E21C8D675B006B7999 /* swiftTool.swift in Sources */,
 				1A5501141C86C4FF001550DF /* CustomTabBarVC.swift in Sources */,
 				1A5CB8FF1C8FDB58007C3AD6 /* DAPagesContainerTopBar.m in Sources */,
+				1A52FA2A1C9BB0C2003E87B4 /* EntranceCollectionLayout.swift in Sources */,
 				1A55010D1C86BC2A001550DF /* FindViewController.swift in Sources */,
 				1A5F5EF51C92796500C20248 /* SpaceCollectionCell.swift in Sources */,
 				1A55010F1C86BC37001550DF /* MineViewController.swift in Sources */,
