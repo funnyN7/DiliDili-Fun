@@ -11,6 +11,7 @@
 		1A0F8BA91C8690D50048E65E /* DiliDiliUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0F8BA81C8690D50048E65E /* DiliDiliUITests.swift */; };
 		1A2A8B711C92D26C00A18BA1 /* LiveModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2A8B701C92D26C00A18BA1 /* LiveModel.swift */; };
 		1A3CE5E21C8D675B006B7999 /* swiftTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3CE5E11C8D675B006B7999 /* swiftTool.swift */; };
+		1A4E3E701CA3F2DC006F9DCA /* BangMiGuModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4E3E6F1CA3F2DC006F9DCA /* BangMiGuModel.swift */; };
 		1A52FA2A1C9BB0C2003E87B4 /* EntranceCollectionLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A52FA291C9BB0C2003E87B4 /* EntranceCollectionLayout.swift */; };
 		1A52FA2C1C9C0D33003E87B4 /* LiveCollectionHeadFootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A52FA2B1C9C0D33003E87B4 /* LiveCollectionHeadFootView.swift */; };
 		1A5501041C869BD5001550DF /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5500F41C869BD5001550DF /* HomeViewController.swift */; };
@@ -68,6 +69,7 @@
 		1A0F8BAA1C8690D50048E65E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1A2A8B701C92D26C00A18BA1 /* LiveModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiveModel.swift; sourceTree = "<group>"; };
 		1A3CE5E11C8D675B006B7999 /* swiftTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = swiftTool.swift; sourceTree = "<group>"; };
+		1A4E3E6F1CA3F2DC006F9DCA /* BangMiGuModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BangMiGuModel.swift; sourceTree = "<group>"; };
 		1A52FA291C9BB0C2003E87B4 /* EntranceCollectionLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntranceCollectionLayout.swift; sourceTree = "<group>"; };
 		1A52FA2B1C9C0D33003E87B4 /* LiveCollectionHeadFootView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiveCollectionHeadFootView.swift; sourceTree = "<group>"; };
 		1A5500F41C869BD5001550DF /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -278,6 +280,7 @@
 			children = (
 				1A7986BA1C911FB200A942F1 /* FQModel.swift */,
 				1A2A8B701C92D26C00A18BA1 /* LiveModel.swift */,
+				1A4E3E6F1CA3F2DC006F9DCA /* BangMiGuModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -597,6 +600,7 @@
 				1A2A8B711C92D26C00A18BA1 /* LiveModel.swift in Sources */,
 				1A5CB95B1C90010B007C3AD6 /* themeTool.swift in Sources */,
 				1A5501051C869BD5001550DF /* AppDelegate.swift in Sources */,
+				1A4E3E701CA3F2DC006F9DCA /* BangMiGuModel.swift in Sources */,
 				1A55010B1C86BC18001550DF /* FocusViewController.swift in Sources */,
 				1A5CB9011C8FDE0D007C3AD6 /* ZBViewController.swift in Sources */,
 				1A5CB8FE1C8FDB58007C3AD6 /* DAPagesContainer.m in Sources */,

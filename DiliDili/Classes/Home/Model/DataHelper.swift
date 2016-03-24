@@ -167,3 +167,116 @@ class LiveDataHelper:basicDataHelper{
         
     }
 }
+
+class banggumiDataHelper:basicDataHelper{
+  private var recommendSource:[String]?
+  var recommendData:[String]?{
+    get{
+      if self.recommendSource == nil{
+        self.recommendSource = [String]()
+      }
+      return self.recommendSource
+    }
+    set(value){
+      self.recommendSource = value
+    }
+  }
+  private var bannerSource:[String]?
+  var bannerData:[String]?{
+    get{
+      if self.bannerSource == nil{
+        self.bannerSource = [String]()
+      }
+      return self.bannerSource
+    }
+    set(value){
+      self.bannerSource = value
+    }
+  }
+  private var catalogySource:[String]?
+  var catalogyData:[String]?{
+    get{
+      if self.catalogySource == nil{
+        self.catalogySource = [String]()
+      }
+      return self.catalogySource
+    }
+    set(value){
+      self.catalogySource = value
+    }
+  }
+  
+  override func configDataWithCompletion(completion: (configState -> Void)){
+    super.configDataWithCompletion { state -> Void in
+      guard state==configState.configDataStateOK else{
+        completion(state)
+        return
+      }
+      //总数据
+      let data = self.orignialData?.objectForKey(DD_data)
+      //banner
+      let banner = data!.objectForKey("banners") as? Array<Dictionary<String,String>>
+      
+      for element in banner!{
+        let bannerM = DD_LiveBannerModel()
+        bannerM.setValuesForKeysWithDictionary(element)
+        self.bannerData?.append(bannerM)
+      }
+      
+      //entrance
+      let entrance = data!.objectForKey("catalogys") as! Array<AnyObject>
+      
+      for element in entrance{
+        let entranceM = DD_LiveCateGoryModel()
+        entranceM.setValuesForKeysWithDictionary(element as! [String : AnyObject])
+        let dictElement = element as! Dictionary<String,AnyObject>
+        let enDict = dictElement["entrance_icon"] as! Dictionary<String,AnyObject>
+        let entranceSubM = DD_LiveCateGorySubModel()
+        entranceSubM.setValuesForKeysWithDictionary(enDict)
+        entranceM.entrace_Icon = entranceSubM
+        self.entranceData?.append(entranceM)
+      }
+      
+      //partitions
+      let partitions = data!.objectForKey("recommends") as! Array<AnyObject>
+      for count in 0..<partitions.count{
+        let partDict = partitions[count] as! Dictionary<String,AnyObject>
+        let parttionDict = partDict["partition"] as? Dictionary<String,AnyObject>
+        let parttionSubDict = parttionDict!["sub_icon"] as? Dictionary<String,AnyObject>
+        let elementArr = partDict["lives"] as! Array<AnyObject>
+        
+        let partM  = DD_LivePartitionModel()
+        partM.setValuesForKeysWithDictionary(parttionDict!)
+        let partSubM = DD_LivePartitionSubModel()
+        partSubM.setValuesForKeysWithDictionary(parttionSubDict!)
+        partM.sub_icon = partSubM
+        self.elementTitltData?.append(partM)
+        
+        var sectionElementArr = [DD_LiveElementModel]()
+        for count in 0..<elementArr.count{
+          let liveDict = elementArr[count]
+          let liveM = DD_LiveElementModel()
+          //                    print("\(liveDict["room_id"])")
+          liveM.setValuesForKeysWithDictionary(liveDict as! [String : AnyObject])
+          //                    liveM.room_id = liveDict["room_id"] as? Int
+          //                    liveM.online = liveDict["online"] as? Int
+          let ownerDict = liveDict["owner"] as? Dictionary<String,AnyObject>
+          let coverDict = liveDict["cover"] as? Dictionary<String,AnyObject>
+          let ownerM = DD_LiveElementOwnerModel()
+          ownerM.setValuesForKeysWithDictionary(ownerDict!)
+          let coverM = DD_LiveElementCoverModel()
+          coverM.setValuesForKeysWithDictionary(coverDict!)
+          liveM.owner = ownerM
+          liveM.cover = coverM
+          sectionElementArr.append(liveM)
+        }
+        self.elementData?.append(sectionElementArr)
+      }
+      
+      completion(.configDataStateOK)
+      
+      
+    }
+    
+  }
+}

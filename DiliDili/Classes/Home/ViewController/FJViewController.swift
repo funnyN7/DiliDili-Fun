@@ -9,7 +9,8 @@
 import UIKit
 
 class FJViewController: UIViewController {
-
+  
+    var requestURl = "http://app.bilibili.com/api/region_ios/13.json?access_key=9f06f10986fb1b761cd8131f94ff5cd4&actionKey=appkey&appkey=27eb53fc9058f8c3&build=3060&device=phone&platform=ios&sign=46bf21a876c590f56c2709293691e21d&ts=1458810940"
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = UIColor.redColor()

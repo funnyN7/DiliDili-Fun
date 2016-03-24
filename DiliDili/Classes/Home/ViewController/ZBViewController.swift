@@ -145,7 +145,7 @@ class ZBViewController: UIViewController,DDBannerViewDelegate,UICollectionViewDe
         else{
             if kind == UICollectionElementKindSectionHeader{
                 let  headV = collectionView.dequeueReusableSupplementaryViewOfKind(kind, withReuseIdentifier:elementHeadID, forIndexPath: indexPath) as! DD_ElementHeadView
-                let titleM = self.dataHelper.elementTitltData![indexPath.section]
+                let titleM = self.dataHelper.elementTitltData![indexPath.section-1]
                 headV.currentLiveLabelText = "123"
                 headV.leftIconUrl = titleM.sub_icon?.src
                 headV.sectionNameText = titleM.name
